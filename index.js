@@ -12,9 +12,9 @@ class Sedan extends Vehicle{
         super(model)
         this.backupCamera = backupCamera
     }
-    drive(){
-        return `${this.model} drives`
-    }
+    // drive(){
+    //     return `${this.model} drives`
+    // }
     
 }
 
@@ -25,9 +25,9 @@ class EVSedan extends Sedan{
     recharge(){
         return `${this.model} recharges`
     }
-    drive(){
-        return `${this.model} drives`
-    }
+    // drive(){
+    //     return `${this.model} drives`
+    // }
 }
 
 class Suv extends Vehicle{
@@ -35,9 +35,9 @@ class Suv extends Vehicle{
         super(model)
         this.offroadPackage = offroadPackage
     }
-    drive(){
-        return `${this.model} drives`
-    }
+    // drive(){
+    //     return `${this.model} drives`
+    // }
    
 }
 
@@ -46,9 +46,9 @@ class Truck extends Vehicle{
         super(model)
         this.towingCapacity = towingCapacity
     }
-    drive(){
-        return `${this.model} drives`
-    }
+    // drive(){
+    //     return `${this.model} drives`
+    // }
 }
 
 let testVehicle = new Vehicle('Tesla')
